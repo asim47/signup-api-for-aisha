@@ -23,7 +23,7 @@ export const HOVER_GREYISH = 'rgba(240, 243, 246, 1)';
 export const FONT = "'Montserrat', sans-serif";
 export const FONT_SECONDARY = "'Racama', sans-serif";
 
-export const API_ENDPOINT = process.env.NEXT_PUBLIC_API_ENDPOINT;
+export const API_ENDPOINT = "https://perfumist-backend.vercel.app";
 export const MAX_WIDTH = '640px';
 
 export const PASSWORD_REGEX = /^(?=.*[a-zA-Z])(?=.*\d)[a-zA-Z\d\S]{8,}$/;
